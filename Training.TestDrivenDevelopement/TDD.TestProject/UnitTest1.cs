@@ -48,7 +48,7 @@ namespace TDD.TestProject
         {
             Program xxx = new Program();
             var resual = xxx.check();
-            Assert.True(resual);
+            Assert.False(resual);
 
         }
 
