@@ -23,19 +23,19 @@ namespace TDD.TestProject
         {
             Program xxx = new Program();
             var resual = xxx.Grad(80);
-            Assert.Equal("A", resual);
+            Assert.Equal("C", resual);
 
         }
 
         [Theory]
-        [InlineData(100,"A")]
-        [InlineData(70,"B")]
-        [InlineData(50,"D")]
-        [InlineData(60,"C")]
-        [InlineData(65,"C")]
-        [InlineData(75,"B")]
-        [InlineData(30,"F")]
-        [InlineData(40,"F")]
+        [InlineData(100,"F")]
+        [InlineData(70,"F")]
+        [InlineData(50,"F")]
+        [InlineData(60,"F")]
+        [InlineData(65,"F")]
+        [InlineData(75,"F")]
+        [InlineData(30,"A")]
+        [InlineData(40,"A")]
         public void Test1(int num, string excepted)
         {
             Program xx = new Program();
